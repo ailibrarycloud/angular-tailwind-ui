@@ -6,12 +6,18 @@
         "brandnavwithoverlap",
         "Brandsidebar",
         "brandsidebarwithheader",
+        "Constrainedthreecolumn",
+        "constrainedwithstickycolumns",
         "Darknavwithcompactwhitepagehea",
         "darknavwithcompactwhitepageheader",
         "Darknavwithoverlap",
         "darknavwithwhitepageheader",
         "Darksidebar",
         "Darksidebarwithheader",
+        "Fullwidthsecondarycolumnonrigh",
+        "Fullwidththreecolumn",
+        "Fullwidthwithnarrowsidebar",
+        "fullwidthwithnarrowsidebarandh",
         "lightnavongraybackground",
         "lightnavwithbottomborder",
         "Lightsidebar",
@@ -19,6 +25,7 @@
         "Lightsidebarwithconstrainedcontentarea",
         "lightsidebarwithheader",
         "lightsidebarwithoffwhitebackgr",
+        "sallu",
         "Tworownavigationwithoverlap"
     ]
 }

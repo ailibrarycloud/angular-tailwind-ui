@@ -16,6 +16,12 @@ import { DarksidebarComponent } from './darksidebar/darksidebar.component';
 import { LightsidebarwithconstrainedconComponent } from './lightsidebarwithconstrainedcon/lightsidebarwithconstrainedcon.component';
 import { LightsidebarwithoffwhitebackgrComponent } from './lightsidebarwithoffwhitebackgr/lightsidebarwithoffwhitebackgr.component';
 import { LightsidebarComponent } from './lightsidebar/lightsidebar.component';
+import { FullwidththreecolumnComponent } from './fullwidththreecolumn/fullwidththreecolumn.component';
+import { ConstrainedthreecolumnComponent } from './constrainedthreecolumn/constrainedthreecolumn.component';
+import { ConstrainedwithstickycolumnsComponent } from './constrainedwithstickycolumns/constrainedwithstickycolumns.component';
+import { FullwidthwithnarrowsidebarComponent } from './fullwidthwithnarrowsidebar/fullwidthwithnarrowsidebar.component';
+import { FullwidthsecondarycolumnonrighComponent } from './fullwidthsecondarycolumnonrigh/fullwidthsecondarycolumnonrigh.component';
+import { FullwidthwithnarrowsidebarandhComponent } from './fullwidthwithnarrowsidebarandh/fullwidthwithnarrowsidebarandh.component';
 
 export const routes: Routes = [
   {
@@ -97,5 +103,29 @@ export const routes: Routes = [
   {
     path: 'lightsidebar-component',
     component: LightsidebarComponent,
+  },
+  {
+    path: 'fullwidththreecolumn-component',
+    component: FullwidththreecolumnComponent,
+  },
+  {
+    path: 'fullwidthsecondarycolumnonrigh-component',
+    component: FullwidthsecondarycolumnonrighComponent,
+  },
+  {
+    path: 'constrainedthreecolumn-component',
+    component: ConstrainedthreecolumnComponent,
+  },
+  {
+    path: 'constrainedwithstickycolumns-component',
+    component: ConstrainedwithstickycolumnsComponent,
+  },
+  {
+    path: 'fullwidthwithnarrowsidebar-component',
+    component: FullwidthwithnarrowsidebarComponent,
+  },
+  {
+    path: 'fullwidthwithnarrowsidebarandh-component',
+    component: FullwidthwithnarrowsidebarandhComponent,
   },
 ];

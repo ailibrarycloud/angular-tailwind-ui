@@ -7,6 +7,12 @@ import { DarknavwithoverlapComponent } from './darknavwithoverlap/darknavwithove
 import { BrandnavwithoverlapComponent } from './brandnavwithoverlap/brandnavwithoverlap.component';
 import { BrandednavwithwhitepageheaderComponent } from './brandednavwithwhitepageheader/brandednavwithwhitepageheader.component';
 import { DarknavwithcompactwhitepageheaComponent } from './darknavwithcompactwhitepagehea/darknavwithcompactwhitepageheader.component';
+import { TworownavigationwithoverlapComponent } from './tworownavigationwithoverlap/tworownavigationwithoverlap.component';
+import { BrandsidebarwithheaderComponent } from './brandsidebarwithheader/brandsidebarwithheader.component';
+import { DarksidebarwithheaderComponent } from './darksidebarwithheader/darksidebarwithheader.component';
+import { LightsidebarwithheaderComponent } from './lightsidebarwithheader/lightsidebarwithheader.component';
+import { BrandsidebarComponent } from './brandsidebar/brandsidebar.component';
+import { DarksidebarComponent } from './darksidebar/darksidebar.component';
 
 export const routes: Routes = [
   {
@@ -49,4 +55,32 @@ export const routes: Routes = [
     component: DarknavwithcompactwhitepageheaComponent,
   },
 
+  {
+    path: 'tworownavigationwithoverlap-component',
+    component: TworownavigationwithoverlapComponent,
+  },
+
+  {
+    path: 'brandsidebarwithheader-component',
+    component: BrandsidebarwithheaderComponent,
+  },
+
+  {
+    path: 'darksidebarwithheader-component',
+    component: DarksidebarwithheaderComponent,
+  },
+
+  {
+    path: 'lightsidebarwithheader-component',
+    component: LightsidebarwithheaderComponent,
+  },
+
+  {
+    path: 'brandsidebar-component',
+    component: BrandsidebarComponent,
+  },
+  {
+    path: 'darksidebar-component',
+    component: DarksidebarComponent,
+  },
 ];

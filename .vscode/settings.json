@@ -4,11 +4,17 @@
         "Brandednavwithcompactwhitepageheader",
         "Brandednavwithwhitepageheader",
         "brandnavwithoverlap",
+        "Brandsidebar",
+        "brandsidebarwithheader",
         "Darknavwithcompactwhitepagehea",
         "darknavwithcompactwhitepageheader",
         "Darknavwithoverlap",
         "darknavwithwhitepageheader",
+        "Darksidebar",
+        "Darksidebarwithheader",
         "lightnavongraybackground",
-        "lightnavwithbottomborder"
+        "lightnavwithbottomborder",
+        "lightsidebarwithheader",
+        "Tworownavigationwithoverlap"
     ]
 }

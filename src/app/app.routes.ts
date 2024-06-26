@@ -28,6 +28,11 @@ import { WithavatarandactionsComponent } from './withavatarandactions/withavatar
 import { WithdescriptionandactionComponent } from './withdescriptionandaction/withdescriptionandaction.component';
 import { WithdescriptionComponent } from './withdescription/withdescription.component';
 import { WithavatarmetaanddropdownComponent } from './withavatarmetaanddropdown/withavatarmetaanddropdown.component';
+import { SimplesectionComponent } from './simplesection/simplesection.component';
+import { WithdescriptionsectionComponent } from './withdescriptionsection/withdescriptionsection.component';
+import { WithactionsComponent } from './withactions/withactions.component';
+import { WithactionsectionComponent } from './withactionsection/withactionsection.component';
+import { WithinputgroupsectionComponent } from './withinputgroupsection/withinputgroupsection.component';
 
 export const routes: Routes = [
   {
@@ -156,7 +161,25 @@ export const routes: Routes = [
   },
 
   {
-    path: 'withavatarmetaanddropdown-component',
-    component: WithavatarmetaanddropdownComponent,
+    path: 'simplesection-component',
+    component: SimplesectionComponent,
+  },
+  {
+    path: 'withdescriptionsection-component',
+    component: WithdescriptionsectionComponent,
+  },
+  {
+    path: 'withactions-component',
+    component: WithactionsComponent,
+  },
+  {
+    path: 'withactionssection-component',
+    component: WithactionsectionComponent,
+  },
+  {
+    path: 'withinputgroupsection-component',
+    component: WithinputgroupsectionComponent,
   },
 ];
+
+//withdescriptionsection

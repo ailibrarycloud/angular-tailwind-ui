@@ -13,6 +13,9 @@ import { DarksidebarwithheaderComponent } from './darksidebarwithheader/darkside
 import { LightsidebarwithheaderComponent } from './lightsidebarwithheader/lightsidebarwithheader.component';
 import { BrandsidebarComponent } from './brandsidebar/brandsidebar.component';
 import { DarksidebarComponent } from './darksidebar/darksidebar.component';
+import { LightsidebarwithconstrainedconComponent } from './lightsidebarwithconstrainedcon/lightsidebarwithconstrainedcon.component';
+import { LightsidebarwithoffwhitebackgrComponent } from './lightsidebarwithoffwhitebackgr/lightsidebarwithoffwhitebackgr.component';
+import { LightsidebarComponent } from './lightsidebar/lightsidebar.component';
 
 export const routes: Routes = [
   {
@@ -82,5 +85,17 @@ export const routes: Routes = [
   {
     path: 'darksidebar-component',
     component: DarksidebarComponent,
+  },
+  {
+    path: 'lightsidebarwithconstrainedcon-component',
+    component: LightsidebarwithconstrainedconComponent,
+  },
+  {
+    path: 'lightsidebarwithoffwhitebackgr-component',
+    component: LightsidebarwithoffwhitebackgrComponent,
+  },
+  {
+    path: 'lightsidebar-component',
+    component: LightsidebarComponent,
   },
 ];

@@ -14,7 +14,11 @@
         "Darksidebarwithheader",
         "lightnavongraybackground",
         "lightnavwithbottomborder",
+        "Lightsidebar",
+        "Lightsidebarwithconstrainedcon",
+        "Lightsidebarwithconstrainedcontentarea",
         "lightsidebarwithheader",
+        "lightsidebarwithoffwhitebackgr",
         "Tworownavigationwithoverlap"
     ]
 }

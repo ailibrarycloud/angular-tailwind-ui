@@ -22,6 +22,12 @@ import { ConstrainedwithstickycolumnsComponent } from './constrainedwithstickyco
 import { FullwidthwithnarrowsidebarComponent } from './fullwidthwithnarrowsidebar/fullwidthwithnarrowsidebar.component';
 import { FullwidthsecondarycolumnonrighComponent } from './fullwidthsecondarycolumnonrigh/fullwidthsecondarycolumnonrigh.component';
 import { FullwidthwithnarrowsidebarandhComponent } from './fullwidthwithnarrowsidebarandh/fullwidthwithnarrowsidebarandh.component';
+import { SimpleComponent } from './simple/simple.component';
+import { WithactionComponent } from './withaction/withaction.component';
+import { WithavatarandactionsComponent } from './withavatarandactions/withavatarandactions.component';
+import { WithdescriptionandactionComponent } from './withdescriptionandaction/withdescriptionandaction.component';
+import { WithdescriptionComponent } from './withdescription/withdescription.component';
+import { WithavatarmetaanddropdownComponent } from './withavatarmetaanddropdown/withavatarmetaanddropdown.component';
 
 export const routes: Routes = [
   {
@@ -127,5 +133,30 @@ export const routes: Routes = [
   {
     path: 'fullwidthwithnarrowsidebarandh-component',
     component: FullwidthwithnarrowsidebarandhComponent,
+  },
+  {
+    path: 'simple-component',
+    component: SimpleComponent,
+  },
+  {
+    path: 'withaction-component',
+    component: WithactionComponent,
+  },
+  {
+    path: 'withavatarandactions-component',
+    component: WithavatarandactionsComponent,
+  },
+  {
+    path: 'withdescriptionandaction-component',
+    component: WithdescriptionandactionComponent,
+  },
+  {
+    path: 'withdescription-component',
+    component: WithdescriptionComponent,
+  },
+
+  {
+    path: 'withavatarmetaanddropdown-component',
+    component: WithavatarmetaanddropdownComponent,
   },
 ];

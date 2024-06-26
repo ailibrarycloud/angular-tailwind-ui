@@ -26,6 +26,11 @@
         "lightsidebarwithheader",
         "lightsidebarwithoffwhitebackgr",
         "sallu",
-        "Tworownavigationwithoverlap"
+        "Tworownavigationwithoverlap",
+        "withaction",
+        "withavatarandactions",
+        "withavatarmetaanddropdown",
+        "withdescription",
+        "withdescriptionandaction"
     ]
 }

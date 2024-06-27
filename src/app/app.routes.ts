@@ -51,6 +51,13 @@ import { WithmetaactionsandbreadcrumbshComponent } from './withmetaactionsandbre
 import { WithmetaactionsandbreadcrumbsoComponent } from './withmetaactionsandbreadcrumbso/withmetaactionsandbreadcrumbso.component';
 import { WithfiltersandactionheadingsComponent } from './withfiltersandactionheadings/withfiltersandactionheadings.component';
 import { WithlogometaandactionsheadingsComponent } from './withlogometaandactionsheadings/withlogometaandactionsheadings.component';
+import { LeftalignedComponent } from './leftaligned/leftaligned.component';
+import { LeftalignedondarkComponent } from './leftalignedondark/leftalignedondark.component';
+import { LeftalignedincardComponent } from './leftalignedincard/leftalignedincard.component';
+import { LeftalignedstripedComponent } from './leftalignedstriped/leftalignedstriped.component';
+import { TwocolumnComponent } from './twocolumn/twocolumn.component';
+import { LeftalignedwithinlineactionsComponent } from './leftalignedwithinlineactions/leftalignedwithinlineactions.component';
+import { NarrowwithhiddenlabelsComponent } from './narrowwithhiddenlabels/narrowwithhiddenlabels.component';
 
 export const routes: Routes = [
   {
@@ -270,7 +277,37 @@ export const routes: Routes = [
     path: 'withlogometaandactionsheadings-component',
     component: WithlogometaandactionsheadingsComponent,
   },
+  {
+    path: 'leftaligned-component',
+    component: LeftalignedComponent,
+  },
+  {
+    path: 'leftalignedondark-component',
+    component: LeftalignedondarkComponent,
+  },
+  {
+    path: 'leftalignedincard-component',
+    component: LeftalignedincardComponent,
+  },
+  {
+    path: 'leftalignedstriped-component',
+    component: LeftalignedstripedComponent,
+  },
+  {
+    path: 'twocolumn-component',
+    component: TwocolumnComponent,
+  },
+  {
+    path: 'leftalignedwithinlineactions-component',
+    component: LeftalignedwithinlineactionsComponent,
+  },
+  {
+    path: 'narrowwithhiddenlabels-component',
+    component: NarrowwithhiddenlabelsComponent,
+  },
 ];
+
+//leftalignedwithinlineactions
 
 
 

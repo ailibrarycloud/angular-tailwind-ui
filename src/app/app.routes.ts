@@ -58,6 +58,10 @@ import { LeftalignedstripedComponent } from './leftalignedstriped/leftalignedstr
 import { TwocolumnComponent } from './twocolumn/twocolumn.component';
 import { LeftalignedwithinlineactionsComponent } from './leftalignedwithinlineactions/leftalignedwithinlineactions.component';
 import { NarrowwithhiddenlabelsComponent } from './narrowwithhiddenlabels/narrowwithhiddenlabels.component';
+import { WithtrendingComponent } from './withtrending/withtrending.component';
+import { SimpleondarkstatsComponent } from './simpleondarkstats/simpleondarkstats.component';
+import { WithbrandiconComponent } from './withbrandicon/withbrandicon.component';
+import { WithsharedbordersComponent } from './withsharedborders/withsharedborders.component';
 
 export const routes: Routes = [
   {
@@ -305,9 +309,25 @@ export const routes: Routes = [
     path: 'narrowwithhiddenlabels-component',
     component: NarrowwithhiddenlabelsComponent,
   },
+  {
+    path: 'withtrending-component',
+    component: WithtrendingComponent,
+  },
+  {
+    path: 'simpleondarkstats-component',
+    component: SimpleondarkstatsComponent,
+  },
+  {
+    path: 'withbrandicon-component',
+    component: WithbrandiconComponent,
+  },
+  {
+    path: 'withsharedborders-component',
+    component: WithsharedbordersComponent,
+  },
 ];
 
-//leftalignedwithinlineactions
+
 
 
 

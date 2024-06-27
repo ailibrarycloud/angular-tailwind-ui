@@ -35,6 +35,7 @@
         "margotfoster",
         "narrowwithhiddenlabels",
         "sallu",
+        "simpleondarkstats",
         "simplesection",
         "twocolumn",
         "Tworownavigationwithoverlap",
@@ -52,6 +53,7 @@
         "withavatarmetaanddropdown",
         "Withbadgeanddropdownsection",
         "Withbannerimageheadings",
+        "withbrandicon",
         "withdescription",
         "withdescriptionandaction",
         "withdescriptionsection",
@@ -64,6 +66,8 @@
         "withmetaactionsandbreadcrumbso",
         "withmetaandactions",
         "Withmetaandactionsondarkhead",
-        "withtabssection"
+        "withsharedborders",
+        "withtabssection",
+        "withtrending"
     ]
 }

@@ -38,6 +38,19 @@ import { WithactionsandtabssectionComponent } from './withactionsandtabssection/
 import { WithinlinetabssectionComponent } from './withinlinetabssection/withinlinetabssection.component';
 import { WithlabelsectionComponent } from './withlabelsection/withlabelsection.component';
 import { WithbadgeanddropdownsectionComponent } from './withbadgeanddropdownsection/withbadgeanddropdownsection.component';
+import { WithmetaandactionsComponent } from './withmetaandactions/withmetaandactions.component';
+import { WithactionsheadingComponent } from './withactionsheading/withactionsheading.component';
+import { WithactionsondarkheadingsComponent } from './withactionsondarkheadings/withactionsondarkheadings.component';
+import { WithactionsandbreadcrumbsheadComponent } from './withactionsandbreadcrumbshead/withactionsandbreadcrumbshead.component';
+import { WithactionsandbreadcrumbsondarComponent } from './withactionsandbreadcrumbsondar/withactionsandbreadcrumbsondar.component';
+import { WithmetaandactionsondarkheadComponent } from './withmetaandactionsondarkhead/withmetaandactionsondarkhead.component';
+import { WithbannerimageheadingsComponent } from './withbannerimageheadings/withbannerimageheadings.component';
+import { WithavatarandactionsheadingsComponent } from './withavatarandactionsheadings/withavatarandactionsheadings.component';
+import { CardwithavatarandstatsheadingsComponent } from './cardwithavatarandstatsheadings/cardwithavatarandstatsheadings.component';
+import { WithmetaactionsandbreadcrumbshComponent } from './withmetaactionsandbreadcrumbsh/withmetaactionsandbreadcrumbsh.component';
+import { WithmetaactionsandbreadcrumbsoComponent } from './withmetaactionsandbreadcrumbso/withmetaactionsandbreadcrumbso.component';
+import { WithfiltersandactionheadingsComponent } from './withfiltersandactionheadings/withfiltersandactionheadings.component';
+import { WithlogometaandactionsheadingsComponent } from './withlogometaandactionsheadings/withlogometaandactionsheadings.component';
 
 export const routes: Routes = [
   {
@@ -205,5 +218,60 @@ export const routes: Routes = [
     path: 'withbadgeanddropdownsection-component',
     component: WithbadgeanddropdownsectionComponent,
   },
+  {
+    path: 'withmetaandactions-component',
+    component: WithmetaandactionsComponent,
+  },
+  {
+    path: 'withactionsheading-component',
+    component: WithactionsheadingComponent,
+  },
+  {
+    path: 'withactionsondarkheadings-component',
+    component: WithactionsondarkheadingsComponent,
+  },
+  {
+    path: 'withactionsandbreadcrumbshead-component',
+    component: WithactionsandbreadcrumbsheadComponent,
+  },
+  {
+    path: 'withactionsandbreadcrumbsondar-component',
+    component: WithactionsandbreadcrumbsondarComponent,
+  },
+  {
+    path: 'withmetaandactionsondarkhead-component',
+    component: WithmetaandactionsondarkheadComponent,
+  },
+  {
+    path: 'withbannerimageheadings-component',
+    component: WithbannerimageheadingsComponent,
+  },
+  {
+    path: 'withavatarandactionsheadings-component',
+    component: WithavatarandactionsheadingsComponent,
+  },
+  {
+    path: 'cardwithavatarandstatsheadings-component',
+    component: CardwithavatarandstatsheadingsComponent,
+  },
+  {
+    path: 'withmetaactionsandbreadcrumbsh-component',
+    component: WithmetaactionsandbreadcrumbshComponent,
+  },
+  {
+    path: 'withmetaactionsandbreadcrumbso-component',
+    component: WithmetaactionsandbreadcrumbsoComponent,
+  },
+  {
+    path: 'withfiltersandactionheadings-component',
+    component: WithfiltersandactionheadingsComponent,
+  },
+  {
+    path: 'withlogometaandactionsheadings-component',
+    component: WithlogometaandactionsheadingsComponent,
+  },
 ];
+
+
+
 

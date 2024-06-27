@@ -33,6 +33,11 @@ import { WithdescriptionsectionComponent } from './withdescriptionsection/withde
 import { WithactionsComponent } from './withactions/withactions.component';
 import { WithactionsectionComponent } from './withactionsection/withactionsection.component';
 import { WithinputgroupsectionComponent } from './withinputgroupsection/withinputgroupsection.component';
+import { WithtabssectionComponent } from './withtabssection/withtabssection.component';
+import { WithactionsandtabssectionComponent } from './withactionsandtabssection/withactionsandtabssection.component';
+import { WithinlinetabssectionComponent } from './withinlinetabssection/withinlinetabssection.component';
+import { WithlabelsectionComponent } from './withlabelsection/withlabelsection.component';
+import { WithbadgeanddropdownsectionComponent } from './withbadgeanddropdownsection/withbadgeanddropdownsection.component';
 
 export const routes: Routes = [
   {
@@ -180,6 +185,25 @@ export const routes: Routes = [
     path: 'withinputgroupsection-component',
     component: WithinputgroupsectionComponent,
   },
+  {
+    path: 'withtabssection-component',
+    component: WithtabssectionComponent,
+  },
+  {
+    path: 'withactionsandtabssection-component',
+    component: WithactionsandtabssectionComponent,
+  },
+  {
+    path: 'withinlinetabssection-component',
+    component: WithinlinetabssectionComponent,
+  },
+  {
+    path: 'withlabelsection-component',
+    component: WithlabelsectionComponent,
+  },
+  {
+    path: 'withbadgeanddropdownsection-component',
+    component: WithbadgeanddropdownsectionComponent,
+  },
 ];
 
-//withdescriptionsection

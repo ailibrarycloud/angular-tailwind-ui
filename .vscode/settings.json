@@ -30,13 +30,18 @@
         "Tworownavigationwithoverlap",
         "withaction",
         "withactions",
+        "withactionsandtabssection",
         "Withactionsection",
         "withactionssection",
         "withavatarandactions",
         "withavatarmetaanddropdown",
+        "Withbadgeanddropdownsection",
         "withdescription",
         "withdescriptionandaction",
         "withdescriptionsection",
-        "withinputgroupsection"
+        "withinlinetabssection",
+        "withinputgroupsection",
+        "withlabelsection",
+        "withtabssection"
     ]
 }

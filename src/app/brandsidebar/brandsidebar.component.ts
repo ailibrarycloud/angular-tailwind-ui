@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-brandsidebar',
@@ -56,3 +58,15 @@ export class BrandsidebarComponent {
     }
   }
 }
+@NgModule({
+  declarations: [
+    BrandsidebarComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+  ],
+  providers: [],
+  bootstrap: []
+})
+export class AppModule { }

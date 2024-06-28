@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
   selector: 'app-brandnavwithoverlap',
@@ -20,6 +22,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 export class BrandnavwithoverlapComponent {
   
   isMenu = false;
+opacityScale: any;
 
   constructor() { }
   
@@ -27,3 +30,16 @@ export class BrandnavwithoverlapComponent {
     this.isMenu = !this.isMenu;
   }
 }
+
+@NgModule({
+  declarations: [
+    BrandnavwithoverlapComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+  ],
+  providers: [],
+  bootstrap: []
+})
+export class AppModule { }

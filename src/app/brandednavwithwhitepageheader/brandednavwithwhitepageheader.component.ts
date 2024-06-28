@@ -1,3 +1,6 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { Component } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 
@@ -8,7 +11,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
     trigger('opacityScale', [
       transition(':enter', [
         style({ opacity: 0, transform: 'scale(.95)' }),
-        animate('100ms ease-out', style({  opacity: 1, transform: 'scale(1)' }))
+        animate('100ms ease-out', style({ opacity: 1, transform: 'scale(1)' }))
       ]),
       transition(':leave', [
         style({ opacity: 1, transform: 'scale(1)' }),
@@ -18,12 +21,24 @@ import { trigger, transition, style, animate } from '@angular/animations';
   ]
 })
 export class BrandednavwithwhitepageheaderComponent {
-  
   isMenu = false;
 
   constructor() { }
   
-  toggleMenu(){
+  toggleMenu() {
     this.isMenu = !this.isMenu;
   }
 }
+
+@NgModule({
+  declarations: [
+    BrandednavwithwhitepageheaderComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+  ],
+  providers: [],
+  bootstrap: []
+})
+export class AppModule { }

@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
   selector: 'app-lightsidebarwithheader',
@@ -71,3 +73,15 @@ export class LightsidebarwithheaderComponent {
     this.isMenu = !this.isMenu;
   }
 }
+@NgModule({
+  declarations: [
+    LightsidebarwithheaderComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+  ],
+  providers: [],
+  bootstrap: []
+})
+export class AppModule { }
